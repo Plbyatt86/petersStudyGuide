@@ -1,0 +1,23 @@
+{
+  "name": "peter",
+  "version": "1.0.0",
+  "description": "## Table of Contents",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Csantos07/petersStudyGuide.git"
+  },
+  "author": "Peter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Csantos07/petersStudyGuide/issues"
+  },
+  "homepage": "https://github.com/Csantos07/petersStudyGuide#readme",
+  "devDependencies": {
+    "chai": "^5.0.0",
+    "mocha": "^10.2.0"
+  }
+}
