@@ -17,6 +17,8 @@
 
 // const doubledNumbers = numbers.map((number) => number * 2);
 
+const doubledNumbers = numbers.map(function myFunctionName(number) { number * 2 });
+
 // console.log(doubledNumbers);
 
 function customMap(array, callback) {
@@ -39,4 +41,4 @@ const squaredNumbers = customMap(function (num) {
 console.log(squaredNumbers);
 
 
-// TODO: 
+// TODO:

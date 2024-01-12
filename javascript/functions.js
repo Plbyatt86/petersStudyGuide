@@ -18,8 +18,10 @@ let assignment = function () {
 assignment();
 
 // Arrow Syntax
-(() => { console.log("Hello from the  arrow syntax") })()
-let arrowFunction = () =>  console.log("Hello from the  arrow syntax")
+() => { console.log("Hello from the  arrow syntax") }
+// let arrowFunction = () => console.log("Hello from the  arrow syntax")
+
+let arrowFunction = username => { console.log(`Hello ${username} from the  arrow syntax`) }
 
 // -----------------
 function myFunction(parameter, students) { // parameter placeholder
