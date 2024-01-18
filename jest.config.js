@@ -195,4 +195,9 @@ const config = {
   // watchman: true,
 };
 
-module.exports = config;
+module.exports = {
+  testEnvironment: 'node',
+  transformIgnorePatterns: [
+    '/node_modules/(?!chai)',
+  ],
+};
